@@ -1,78 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="cats, voting, cute, kittens">
     <meta name="description" content="a simple website about my kittens">
-    <meta name="author" content="Jasmine Joseph"><title>My Kitties</title>
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="about.html">Cat Stats</a> |
-        <a href="lost.html">Help! I've lost your cat</a> |
-        <a href="vote.html">Vote for the Pawsomest cat</a>
-      </nav>
-      <hr size="10">
+    <meta name="author" content="Jasmine Joseph">
+    <title>My Kitties</title>
+
   </head>
+
+
   <body>
-    <div >
-      <h1>The Joseph Kitty City</h1>
-      <p>A tiny site for my cats</p>
-    </div>
+
     
- 
-    
-  
-   <br><br><br>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">Cat Stats</a> |
+      <a href="lost.html">Help! I've lost your cat</a> |
+      <a href="vote.html">Vote for the Pawsomest cat</a>
+    </nav>
+
+    <hr size="10">
+
+    <div>
+      <!--Html encoded cat heart eye emoji for a little pizzaz-->
+      <h1>Who is your favorite? Paws down! &#128571</h1>
+      <br>
     </div>
-    <!--Html encoded cat heart eye emoji for a little pizzaz-->
-    <h1>Who is your favorite? Paws down! &#128571</h1>
+
+    <div>
+      <label>First Name:</label><input type="text" Name="firstname" placeholder="John">
+      <label>Last Name:</label><input type="text" Name="lastname" placeholder="Doe">
+    </div>  
+    
     <br>
-        <form action="">
-           <label>First Name:</label><input type="text" Name="firstname" placeholder="John">
-            <label>Last Name:</label><input type="text" Name="lastname" placeholder="Doe">
-            <br><br>
-            <!--I decided radial buttons over a drop down so i could add pictures for reference for voting-->
+       
+    <!--I decided radial buttons over a drop down so i could add pictures for reference for voting-->
+    
+    <br>
 
-            <p>The purrrfect one is:</p><br><br>
-            <!--Separated by enters to have more readability of code-->
-            <img src="Pictures\IMG_20150828_150436.jpg" alt="gray striped cat, sitting showing belly" width="300" height="300"><br>
-             <input type="radio" id="poly" Name="Kitty" value="Poly"><label for="poly">Poly</label> <span 
-             ></span><br><br><br>
-             <!--added label and id value as editor stated that input was invalid without-->
+    <div>
+      <p>The purrrfect one is:</p>
+    </div>
 
-            <img src="Pictures\20211020_202238.jpg" alt="small white cat, sitting in a box" width="300" height="300"><br>
-            <input type="radio" id="lil_miss" Name="Kitty" value="Lil Miss"><label for="lil_miss">Lil Miss</label><span 
-            ></span> <br><br><br>
+      <br>
+      <br>
 
-            <img src="Pictures\Gphoto.jpg" alt="small tortise shell cat, laying on fish shaped cat house" width="350" height="300"><br>
-            <input type="radio" id="odyssey" Name="Kitty" value="Odyssey"><label for="odyssey">Odyssey</label><span 
-            ></span><span 
-            ></span> <br><br><br>
-
-            <img src="Pictures\20190204_202446.jpg" alt="large black cat laying down with hat and glasses" width="300" height="300"><br>
-            <input type="radio" id="osiris" Name="Kitty" value="Osiris"><label for="osiris">Osiris</lable><span 
-              ></span> <br><br><br>
-
-            <img src="Pictures\20161009_135740.jpg" alt="small black cat trying to run away" width="300" height="300"><br> 
-            <input type="radio" id="araidia" Name="Kitty" value="Araidia"><label for="aradia">Araidia </label><span 
-            ></span><br><br><br>
-
-            <img src="Pictures\20220629_234033.jpg" alt="sleek black cat sleeping on couch" width="300" height="300"><br> 
-            <input type="radio" id="stella" Name="Kitty" value="Stella"><label for="stella">Stella</label><span 
-            ></span> <br><br><br><br>
-
-            <input type="submit" value="Submit">
-        </form>
-
-    </body>
-    <footer>
-      <br><br><br>
-      <hr>
-      <div >
-        <p>Author: Jasmine Joseph, 2024</p>
+    <div>
+      <form>
+        <!--Separated by enters to have more readability of code-->
+      
+        <img src="Pictures\IMG_20150828_150436.jpg" alt="gray striped cat, sitting showing belly" width="300" height="300">
         <br>
-        <a href="Contact.html">Contact Me</a>
-      </div>
-    </footer>
-    </html>
+        <input type="radio" id="poly" Name="Kitty" value="Poly"><label for="poly">Poly</label> 
+        <br>
+        <!--added label and id value as editor stated that input was invalid without-->
+
+        <img src="Pictures\20211020_202238.jpg" alt="small white cat, sitting in a box" width="300" height="300">
+        <br>
+        <input type="radio" id="lil_miss" Name="Kitty" value="Lil Miss"><label for="lil_miss">Lil Miss</label>
+        <br>
+
+        <img src="Pictures\Gphoto.jpg" alt="small tortise shell cat, laying on fish shaped cat house" width="350" height="300">
+        <br>
+        <input type="radio" id="odyssey" Name="Kitty" value="Odyssey"><label for="odyssey">Odyssey</label>
+        <br>
+
+        <img src="Pictures\20190204_202446.jpg" alt="large black cat laying down with hat and glasses" width="300" height="300">
+        <br>
+        <input type="radio" id="osiris" Name="Kitty" value="Osiris"><label for="osiris">Osiris</label>
+        <br>
+
+        <img src="Pictures\20161009_135740.jpg" alt="small black cat trying to run away" width="300" height="300">
+        <br> 
+        <input type="radio" id="araidia" Name="Kitty" value="Araidia"><label for="araidia">Araidia</label>
+        <br>
+
+        <img src="Pictures\20220629_234033.jpg" alt="sleek black cat sleeping on couch" width="300" height="300">
+        <br> 
+        <input type="radio" id="stella" Name="Kitty" value="Stella"><label for="stella">Stella</label>
+        <br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+  </body>
+  
+  <footer>
+
+    <br>
+    <br>
+    <br>
+
+    <hr>
+
+    <div>
+      <p>Author: Jasmine Joseph, 2024</p>
+    </div>
+
+    <br>
+
+    <div>
+      <a href="Contact.html">Contact Me</a>
+    </div>
+
+  </footer>
+
+</html>
